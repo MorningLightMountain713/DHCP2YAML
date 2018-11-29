@@ -1,6 +1,8 @@
 # DHCP2YAML
 AWK script to parse dhcpd.conf into yaml.
 
+Forked from: https://gist.github.com/mattpascoe/4039747
+
 Each subnet must have a newline after declaration, to maintain record seperator. (RS)
 
 Note: newline is set to windows \r\n if unix required change \r\n to \n in both RS and FS.
